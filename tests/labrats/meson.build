@@ -26,6 +26,7 @@ if host_os == 'macos'
     'forker-macos',
     'forker-macos32',
     'spawner-macos',
+    'exception-catcher-macos',
     'simple-agent-macos.dylib',
     'resident-agent-macos.dylib',
   ]
@@ -53,6 +54,7 @@ if host_os == 'ios'
     'forker-ios32',
     'forker-ios64',
     'spawner-ios',
+    'exception-catcher-ios',
     'simple-agent-ios.dylib',
     'resident-agent-ios.dylib',
   ]
